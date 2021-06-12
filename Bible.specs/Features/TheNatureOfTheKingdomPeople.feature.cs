@@ -19,8 +19,8 @@ namespace Bible.Specs.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.8.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("The nature of the kingdom people", SourceFile="Features\\TheNatureOfTheKingdomPeople.feature", SourceLine=0)]
-    public partial class TheNatureOfTheKingdomPeopleFeature
+    [TechTalk.SpecRun.FeatureAttribute("01 The nature of the kingdom people", SourceFile="Features\\TheNatureOfTheKingdomPeople.feature", SourceLine=0)]
+    public partial class _01TheNatureOfTheKingdomPeopleFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -34,7 +34,7 @@ namespace Bible.Specs.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "The nature of the kingdom people", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "01 The nature of the kingdom people", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

@@ -20,6 +20,8 @@ namespace Bible
         public bool BeCalledTheSonsOfGod { get; set; }
         public bool AreOthersJudged { get; set; }
         public bool AreThemselvesJudged { get; set; }
+        public bool HasObjectiveTruthGiven { get; set; }
+        public bool HasSubjectiveExperienceGiven { get; set; }
 
         public void BeEmptiedAndUnloadedInSpirit()
         {
@@ -34,6 +36,12 @@ namespace Bible
         public void BeMeekAndWillingToSufferTheWorldOpposition()
         {
             WillInheritTheEarthInTheComingAge = true;
+        }
+
+        public void Give(Others others)
+        {
+            HasObjectiveTruthGiven = false;
+            HasSubjectiveExperienceGiven = false;
         }
 
         public void HungerAndThirstForBeingRightInBehavior()

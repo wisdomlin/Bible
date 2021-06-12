@@ -1,4 +1,4 @@
-﻿Feature: The nature of the kingdom people
+﻿Feature: 01 The nature of the kingdom people
 
 @mytag
 Scenario: 01 Blessed are the poor in spirit
