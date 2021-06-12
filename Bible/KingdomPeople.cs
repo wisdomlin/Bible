@@ -9,6 +9,12 @@ namespace Bible
         public bool WillInheritTheEarthInTheComingAge { get; set; }
         public bool BeSatisfiedAndGrantedTheRighteousnessWeSeek { get; set; }
 
+        public void LiveAndWork()
+        {
+            InwardMotive = "GodSWill";
+            Foundation = "GodSWill";
+        }
+
         public void Judge()
         {
             AreOthersJudged = false;
@@ -22,6 +28,8 @@ namespace Bible
         public bool AreThemselvesJudged { get; set; }
         public bool HasObjectiveTruthGiven { get; set; }
         public bool HasSubjectiveExperienceGiven { get; set; }
+        public string InwardMotive { get; set; }
+        public string Foundation { get; set; }
 
         public void BeEmptiedAndUnloadedInSpirit()
         {

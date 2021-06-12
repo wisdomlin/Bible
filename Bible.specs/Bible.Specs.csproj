@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <SpecFlowObsoleteCodeBehindFiles Remove="Features\TheNatureOfTheKingdomPeople - 複製.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\ThePrinciplesOf DealingWithOthers - 複製.feature.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,12 +38,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Features\TheGroundOfLivingAndWork.feature.cs">
+      <DependentUpon>TheGroundOfLivingAndWork.feature</DependentUpon>
+    </Compile>
     <Compile Update="Features\ThePrinciplesOf DealingWithOthers.feature.cs">
       <DependentUpon>ThePrinciplesOf DealingWithOthers.feature</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\TheGroundOfLivingAndWork.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
     <SpecFlowFeatureFiles Update="Features\ThePrinciplesOf DealingWithOthers.feature">
       <Visible>$(UsingMicrosoftNETSdk)</Visible>
       <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
