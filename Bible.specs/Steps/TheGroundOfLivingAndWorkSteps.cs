@@ -49,16 +49,16 @@ namespace Bible.Specs.Steps
             _InwardMotive.Should().NotBe("TheWorldWithItsGlory");
         }
         
-        [Then(@"inward motive is God's will")]
-        public void ThenInwardMotiveIsGodSWill()
+        [Then(@"inward motive is to accomplish God's will")]
+        public void ThenInwardMotiveIsToAccomplishGodSWill()
         {
-            _InwardMotive.Should().Be("GodSWill");
+            _InwardMotive.Should().Be("ToAccomplishGodSWill");
         }
 
-        [Then(@"foundation is God's will")]
-        public void ThenFoundationIsGodSWill()
+        [Then(@"foundation is to accomplish God's will")]
+        public void ThenFoundationIsAccomplishGodSWill()
         {
-            _Foundation.Should().Be("GodSWill");
+            _Foundation.Should().Be("ToAccomplishGodSWill");
         }
 
         [Then(@"foundation is not the human concept")]

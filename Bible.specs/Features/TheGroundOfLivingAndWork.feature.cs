@@ -123,7 +123,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("inward motive is not the world with its glory", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 14
- testRunner.And("inward motive is God\'s will", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("inward motive is to accomplish God\'s will", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -171,7 +171,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("the kingdom people Live And Work", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 25
- testRunner.Then("foundation is God\'s will", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("foundation is to accomplish God\'s will", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 26
  testRunner.And("foundation is not the human concept", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

@@ -11,8 +11,8 @@ namespace Bible
 
         public void LiveAndWork()
         {
-            InwardMotive = "GodSWill";
-            Foundation = "GodSWill";
+            InwardMotive = "ToAccomplishGodSWill";
+            Foundation = "ToAccomplishGodSWill";
         }
 
         public void Judge()

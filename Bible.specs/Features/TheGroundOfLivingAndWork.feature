@@ -11,7 +11,7 @@ only that [which corresponds with God's will] can enter in.
 	And inward motive is not the flesh
 	And inward motive is not the human concept
 	And inward motive is not the world with its glory
-	And inward motive is God's will 
+	And inward motive is to accomplish God's will 
 
 @mytag
 Scenario: Work (foundation)
@@ -22,7 +22,7 @@ The living and work of the kingdom people must [be founded on] the word of the n
 for the accomplishing of the will of the heavenly Father. 
 This is to enter in through [the narrow gate] and walk [the constricted way] that leads to life.
 	When the kingdom people Live And Work
-	Then foundation is God's will
+	Then foundation is to accomplish God's will 
 	And  foundation is not the human concept
 	And  foundation is not the natural ways
 
